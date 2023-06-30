@@ -1,0 +1,108 @@
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #9BE3C0;
+    display: flex;
+    justify-content: space-between;
+}
+.hidden-nav {
+    display: none;
+}
+.logo-container {
+    display: flex;
+    font-size: 1.5rem;
+}
+.logo-container img {
+    width: 7rem;
+    height: 8rem;
+    margin-top: -1.8rem;
+    margin-left: -0.5rem;
+}
+.logo-container p {
+    margin-left: -0.8rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    position: relative;
+}
+.logout-nav {
+    color: #929292;
+}
+.main-nav a {
+    text-decoration: none;
+    padding: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    border-right: 1px solid #6bdfa7;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    font-weight: 600;
+}
+.main-nav a:hover {
+    background-color: #6bdfa7;
+}
+.burger-nav {
+    display: none;
+}
+.burger-line {
+    border-bottom: 3px solid black;
+    width: 2rem;
+    margin: 0.3rem;
+}
+.burger-nav-items {
+    display: none;
+}
+@media only screen and (max-width: 1400px) {
+    .main-nav {
+        display: none;
+    }
+    .burger-nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    }
+    .burger-nav-items.active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5rem;
+        width: 40vw;
+        background-color: #9BE3C0;
+        border-top: 1px solid #42af7a;
+        border-bottom: 1px solid #42af7a;
+        border-left: 1px solid #42af7a;
+        z-index: 2;
+        position: relative;
+    }
+    .burger-nav-items.active a{
+        text-decoration: none;
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0.5rem;
+    }
+    .burger-nav-items.active a:hover {
+        border-bottom: 1px solid #42af7a;
+    }
+}
+
+.footer {
+    position: relative;
+    /* bottom: -120px; */
+    text-align: end;
+}

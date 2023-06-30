@@ -1,0 +1,91 @@
+.calendar-container {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.text-center {
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.react-calendar {
+  width: 22rem;
+  max-width: 100%;
+  background-color: #9BE3C0;
+  color: #222;
+  border-radius: 0.5rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  line-height: 1.125em;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.react-calendar__navigation button {
+  color: #222;
+  font-size: 16px;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #42af7a;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #42af7a;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.react-calendar__tile--now {
+  background: #42af7a;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.react-calendar__tile--active {
+  background: #42af7a;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.react-calendar__tile--hasActive {
+  background: #42af7a;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+
+.react-calendar__navigation__label {
+  background: purple;
+}
+
+@media only screen and (max-width: 1450px) {
+  .calendar-container {
+    display: none;
+  }
+}

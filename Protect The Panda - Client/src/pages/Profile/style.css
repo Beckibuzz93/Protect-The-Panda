@@ -1,0 +1,14 @@
+.profile-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+}
+.cal-form-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    max-height: 50%;
+    margin: 1rem;
+}
