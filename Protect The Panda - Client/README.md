@@ -1,4 +1,3 @@
-# Every Day Im Studying - Client 
 # Protect the Panda Revison App
 
 ## Description
@@ -15,7 +14,7 @@ Protect the Panda is a revision app designed to support students with their stud
 - License
 
 ## Installation
-1. Begin by `cloing` this repository onto your machine.
+1. Begin by `cloning` this repository onto your machine.
 2. Navigate to the project directory: `cd everyday-im-learning-client
 3. In your terminal, run `npm install` to install the project dependencies.
 
@@ -32,8 +31,6 @@ Protect the Panda is a revision app designed to support students with their stud
 ## Visuals
 
 ## Technologies
-
-## Bugs
 
 ## Licence
 This project is licensed under the MIT License.

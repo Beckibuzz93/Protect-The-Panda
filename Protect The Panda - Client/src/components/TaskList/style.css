@@ -2,23 +2,23 @@
     width: 80%;
     height: 50%;
     overflow-y: auto;
-    height: 100%;
+    max-height: 50vh;
 }
 
-::-webkit-scrollbar {
+.tasks-container::-webkit-scrollbar {
     width: 1rem;
 }
 
-  ::-webkit-scrollbar-track {
+.tasks-container::-webkit-scrollbar-track {
     background: #42af7a; 
   }
    
-  ::-webkit-scrollbar-thumb {
+.tasks-container::-webkit-scrollbar-thumb {
     background: #9BE3C0;
     border: 1px solid #42af7a;
   }
 
-  ::-webkit-scrollbar-thumb:hover {
+.tasks-container::-webkit-scrollbar-thumb:hover {
     background: #DBFAF5; 
   }
 @media only screen and (max-width: 1450px) {
